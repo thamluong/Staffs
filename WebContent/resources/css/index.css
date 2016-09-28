@@ -1,0 +1,48 @@
+html, body {
+	background-image: url('../img/background4.jpg');
+	background-size:cover; 
+	font-family: mvboli;
+}
+
+.table th, td {
+	text-align: center;
+}
+label {
+	color: #006600;
+	padding: 10px;
+}
+textarea {
+	width:auto;
+}
+
+.table{
+	bgcolor:#d9edf7;
+	width: 100%;
+	margin-left: 10px;
+}
+.table tbody tr:nth-child(odd) td, .table tbody tr:nth-child(odd) th {
+	background-color: #DFF0D8;
+}
+.table_head {
+	background: #52A138;
+}
+.table_body {
+	background: #d9edf7;
+}
+
+.detail:hover {
+	text-decoration: underline;
+}
+
+.table_detail td:first-child {font-weight:bold;}
+.table_detail td:nth-child(2) { 
+	text-align: left;
+	font-size: 15px;
+}
+.table_detail .modal-body{
+	line-height: 200%;
+	algin:center;
+}
+.modal-content{
+	width: 500px;
+}
